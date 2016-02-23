@@ -1,4 +1,4 @@
-#ES7 异步函数
+#ES7 异步函数[原文地址](https://jakearchibald.com/2014/es7-async-functions/)
 ```
 They're brilliant. They're brilliant and I want laws changed so I can marry them.
 ```
