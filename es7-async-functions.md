@@ -61,7 +61,7 @@ async function loadStory() {
 ##直到ES7时代的来临···
 你可以通过[`Traceur transpiler`](http://goo.gl/Dc6V1B)来使用包括异步函数在内的 ES6/7 新特性。此外，你还可以通过 ES6 的`generator`特性来实现异步函数。
 
-你仅需要额外的的很小一段代码，[`a spawn function`(不知该如何翻译)](https://gist.github.com/jakearchibald/31b89cba627924972ad6)。然后你就可以使用`generator`来实现异步函数：
+你仅需要额外的的很小一段代码，一个[`spawn`](https://gist.github.com/jakearchibald/31b89cba627924972ad6)函数。然后你就可以使用`generator`来实现异步函数：
 ```javascript```
 function loadStory() {
   return spawn(function *() {
