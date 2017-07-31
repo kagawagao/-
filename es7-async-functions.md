@@ -85,7 +85,8 @@ function loadStory() {
 在上面的代码中，我将一个`generator`函数作为参数传入`spawn`函数中，因为在`function *()`中存在星号，因此你可以称之为`generator`函数。`spawn`函数在`generator`函数中调用`.next()`，当执行到`yield`语句时接收到一个`Promise`对象，然后等待这个异步操作成功再调用`.next()`（或者失败后再调用`.throw()`）。
 
 ES7 将`spawn`函数引入至规范中，并且可以更方便地使用。通过标准化规范来简化异步编程简直太棒了！
-##额外阅读
+
+## 额外阅读
 - [JavaScript promises, there and back again](http://www.html5rocks.com/en/tutorials/es6/promises/) - Promise入门
 
 - [`Promise.resolve()` is not the opposite of `Promise.reject()`](https://jakearchibald.com/2014/resolve-not-opposite-of-reject/) - 关于Promise的误解
